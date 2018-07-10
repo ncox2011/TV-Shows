@@ -35,8 +35,8 @@ const Database = Object.create({}, {
     deleteShow: {
         value: id => {
             return $.ajax({
-                url: `http://localhost:3000/shows${id}`,
-                mehtod: "DELETE"
+                url: `http://localhost:3000/shows/${id}`,
+                method: "DELETE"
             })
         }
     }

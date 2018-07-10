@@ -27,7 +27,7 @@ const createTVCard = (id, title, plotSummary, seasonNumber) => {
 
     let removeBtn = document.createElement("BUTTON")
     removeBtn.textContent = "Remove"
-    removeBtn.setAttribute("id", "removeBtn")
+    removeBtn.setAttribute("class", "removeBtn")
 
     card.appendChild(showsTitle)
     card.appendChild(summary)
@@ -36,7 +36,7 @@ const createTVCard = (id, title, plotSummary, seasonNumber) => {
     card.appendChild(watchedTag)
     card.appendChild(editBtn)
     card.appendChild(removeBtn)
-    console.log(card)
+    // console.log(card)
 
     containerDiv.appendChild(card)
 
