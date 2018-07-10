@@ -1,0 +1,46 @@
+{
+  "shows": [
+    {
+      "title": "Friends",
+      "plotSummary": "6 friends live in NYC",
+      "seasonNumber": "10",
+      "id": 1
+    },
+    {
+      "title": "Scrubs",
+      "plotSummary": "4 friends work at a hospital",
+      "seasonNumber": "8",
+      "id": 2
+    },
+    {
+      "title": "House",
+      "plotSummary": "special cases at a hospital",
+      "seasonNumber": "8",
+      "id": 3
+    },
+    {
+      "title": "New Girl",
+      "plotSummary": "Girl lives with 3 guy roommates",
+      "seasonNumber": "6",
+      "id": 4
+    },
+    {
+      "title": "The Waltons",
+      "plotSummary": "family",
+      "seasonNumber": "10",
+      "id": 5
+    },
+    {
+      "title": "show",
+      "plotSummary": "show",
+      "seasonNumber": "d1",
+      "id": 6
+    },
+    {
+      "title": "dk",
+      "plotSummary": "sk",
+      "seasonNumber": "kd",
+      "id": 7
+    }
+  ]
+}
