@@ -4,7 +4,8 @@
       "title": "Friends",
       "plotSummary": "6 friends live in NYC",
       "seasonNumber": "10",
-      "id": 1
+      "id": 1,
+      "watched": "true"
     },
     {
       "title": "Scrubs",
@@ -23,6 +24,12 @@
       "plotSummary": "Girl lives with 3 guy roommates",
       "seasonNumber": "6",
       "id": 4
+    },
+    {
+      "title": "One Tree Hill",
+      "plotSummary": "teenage angst",
+      "seasonNumber": "6",
+      "id": 5
     }
   ]
 }
