@@ -23,7 +23,7 @@ const createTVCard = (id, title, plotSummary, seasonNumber) => {
 
     let editBtn = document.createElement("BUTTON")
     editBtn.textContent = "Edit"
-    editBtn.setAttribute("id", "editBtn")
+    editBtn.setAttribute("class", "editBtn")
 
     let removeBtn = document.createElement("BUTTON")
     removeBtn.textContent = "Remove"

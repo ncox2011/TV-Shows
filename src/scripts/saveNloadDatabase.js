@@ -39,6 +39,17 @@ const Database = Object.create({}, {
                 method: "DELETE"
             })
         }
+    },
+    archiveShow: {
+        value: id => {
+            return $.ajax({
+                url: `http://localhost:3000/shows/${id}`,
+                method: "PATCH",
+                data: {
+                    watched: true
+                }
+            })
+        }
     }
 })
 

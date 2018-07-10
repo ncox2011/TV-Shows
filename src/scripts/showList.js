@@ -7,8 +7,9 @@ const showList =() => {
             .then(showData => {
                 clear("#showList")
                 for (let i in showData) {
+                    if (showData[i].watched !== "true") {
                     CreateCard(showData[i].id, showData[i].title, showData[i].plotSummary, showData[i].seasonNumber);
-
+                    }
                 }
             })
     }
